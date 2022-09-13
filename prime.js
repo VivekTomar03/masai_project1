@@ -1,3 +1,18 @@
-let bag ="";
- 
- for (let i =str.length-1; i>=0; i--)
+let n=13;
+let count=0;    
+  for(let i=1;i<=n;i++){
+      if(n%i==0){
+              count++;
+          }
+      }
+       
+   
+  if(count==2){
+          console.log("Yes");
+           
+      }
+  else{
+          
+          console.log("No")
+         
+     }
